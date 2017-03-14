@@ -1,0 +1,59 @@
+html {
+	position: relative;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 90px 90px 90px 90px;
+}
+
+#outerBox{
+  background-color: #f2f2f2;
+  border: 4px black;
+  margin: 10;
+  padding: 30px 30px 30px 30px;
+}
+
+#outsideBox{
+  background-color: #e6e6e6;
+  border: 1px purple;
+  margin: 0;
+  padding: 15px 30px 30px 30px;
+}
+
+
+#inputOutput{
+  background-color: #8c8c8c;
+  border: 2px solid #c653c6;
+  margin: 0px;
+  padding: 0px;
+}
+
+#firstBox{
+  background-color: gray;
+  margin: 0px;
+  padding: 10px 30px 30px 30px;
+  text-align: center;
+}
+#pyramid{
+  background-color: #bfbfbf;
+  margin: 0px;
+  padding: 10px 30px 30px 30px;
+  text-align: center;
+}
+
+h1 {
+  background-color: #c653c6;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+

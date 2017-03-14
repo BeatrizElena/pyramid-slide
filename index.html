@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main id="outerBox">
+    <h1>Pyramid Slide</h1>
+    <div id="outsideBox">
+    <div id="inputOutput">
+    <div id="firstBox">
+    <container>
+    <form id="draw-form" oninput = handlers.myPyramid(event)>
+      <p>Brick Symbol:
+    <select id="mySelect">
+      <option value="#">#
+      <option value="$">$
+      <option value="@">@
+      <option value="X">X
+    </select>
+    How high?
+    <input type="range" id="myRange" value="9" min="1" max="20">
+    </p>
+    <p id="slideValue"></p>
+    </form>
+    </container>
+    </div>
+    <div id="pyramid">
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    </main>
+  </body>
+</html>
