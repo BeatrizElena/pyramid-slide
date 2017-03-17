@@ -11,17 +11,17 @@
     <div id="firstBox">
     <container>
     <form id="draw-form" oninput = handlers.myPyramid(event)>
-      <p>Brick Symbol:
+      <p id="labels">Brick Symbol:
     <select id="mySelect">
       <option value="#">#
       <option value="$">$
       <option value="@">@
       <option value="X">X
     </select>
-    How high?
+    <span id="labels">How high?</span>
     <input type="range" id="myRange" value="9" min="1" max="20">
+    <span id="slideValue"></span>
     </p>
-    <p id="slideValue"></p>
     </form>
     </container>
     </div>
